@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<style>
+table{
+	border-spacing: 5px;
+}
+
+table#tb01 tr:nth-child(odd){
+	background-color: green;
+}
+
+table#tb01 tr:nth-child(even){
+	background-color: yellow;
+}
+
+table,th,td {
+	border: 1px solid grey;
+	border-collapse: collapse;
+	padding: 15px;
+}
+
+img {
+	margin: 20px;
+}
+
+th {
+	text-align: left;
+}
+
+
+
+ul#menu li{
+	display: inline;
+}
+
+ul#menu li a {
+	background-color: black;
+	color: white;
+	padding: 15px 20px;
+	text-decoration: none;
+	border-radius: 10px 10px 10px 10px;
+	
+}
+
+ul#menu li a:hover {
+    background-color: orange;
+}
+</style>
+</head>
+
+
+<body>
+
+<h1>About W3Schools</h1>
+
+<p>
+W3Schools is a web developer's site.
+It provides tutorials and references covering
+many aspects of web programming,
+including HTML, CSS, JavaScript, XML, SQL, PHP, ASP, etc.
+</p>
+
+<p><b>
+If you move the mouse over the paragraph above,
+the title will display as a tooltip.
+</b></p>
+<a href = "http://www.google.com">
+<img src = "Refresh.png" alt = "Refresh page" style = "width: 200px; height: 200px; border: 1px solid grey;float: left;">
+</a>
+<br>
+
+<table id = "tb01" style = "width: 100%">
+<caption style = "font-size: 200%"><b>Family Record</b></caption>
+
+<tr>
+	<th>Name</th>
+	<th colspan = "2">Number</th>
+	<th>Field of Study</th>
+</tr>
+<tr>
+	<td>Anup</td>
+	<td>17</td>
+	<td>19</td>
+	<td>MS in Computer Science</td>
+<tr>
+	<td>Trisa</td>
+	<td>12</td>
+	<td>16</td>
+	<td>Nursing</td>
+</tr>
+</table>
+
+		<ul id = "menu">
+			<li><a href = "">Coffee</a></li>
+			<li><a href = "">Tea</a></li>
+			<li><a href = "">Mocha</a></li>
+			<li> <a href = "">Capuchinno</a></li>
+		</ul>
+
+</body>
+</html>
